@@ -1,22 +1,16 @@
 # caddy-dns-acmedns
-Caddy Web Server with ACME-DNS Provider
+Caddy Web Server with Cloudflare DNS Support and Docker Labels
 
-[![Docker Build and Publish](https://github.com/timelordx/caddy-dns-acmedns/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/timelordx/caddy-dns-acmedns/actions/workflows/docker-publish.yml)
-
-**DockerHub:** [timelordx/caddy-dns-acmedns](https://hub.docker.com/r/timelordx/caddy-dns-acmedns)
+[![Docker Build and Publish](https://github.com/satchafunkilus/caddy-cloudflare-docker/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/satchafunkilus/caddy-cloudflare-docker/actions/workflows/docker-publish.yml)
 
 **Docker Pull Command**
 
 * from GitHub Container Registry: 
 
 ```
-docker pull ghcr.io/timelordx/caddy-dns-acmedns:latest
+docker pull ghcr.io/satchafunkilus/caddy-cloudflare-docker:latest
 ```
-* from Docker Hub:
 
-```
-docker pull timelordx/caddy-dns-acmedns:latest
-```
 
 **Documentation**
 
