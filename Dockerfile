@@ -1,8 +1,8 @@
 FROM caddy:builder AS builder
 
 RUN xcaddy build \
-    --with github.com/caddy-dns/acmedns \
-    --with github.com/caddyserver/caddy/v2=github.com/caddyserver/caddy/v2@${CADDY_VERSION}
+    --with github.com/caddy-dns/cloudflare \
+    --with github.com/lucaslorentz/caddy-docker-proxy/v2
 
 FROM caddy:latest
 
