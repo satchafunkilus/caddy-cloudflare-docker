@@ -1,4 +1,4 @@
-# caddy-dns-acmedns
+# caddy-cloudflare-docker
 Caddy Web Server with Cloudflare DNS Support and Docker Labels
 
 [![Docker Build and Publish](https://github.com/satchafunkilus/caddy-cloudflare-docker/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/satchafunkilus/caddy-cloudflare-docker/actions/workflows/docker-publish.yml)
